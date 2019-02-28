@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8939098B221E81400024EAB5 /* JsonResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8939098A221E81400024EAB5 /* JsonResponse.swift */; };
+		8939098D221E815D0024EAB5 /* VenuesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8939098C221E815D0024EAB5 /* VenuesResponse.swift */; };
+		8939098F221E81870024EAB5 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8939098E221E81870024EAB5 /* Venue.swift */; };
+		89390991221E89EB0024EAB5 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89390990221E89EB0024EAB5 /* Location.swift */; };
+		89390993221E91410024EAB5 /* VenueDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89390992221E91410024EAB5 /* VenueDetailViewController.swift */; };
 		89659A7D2215424700202C63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89659A7C2215424700202C63 /* AppDelegate.swift */; };
 		89659A7F2215424700202C63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89659A7E2215424700202C63 /* ViewController.swift */; };
 		89659A822215424700202C63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89659A802215424700202C63 /* Main.storyboard */; };
 		89659A842215424A00202C63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89659A832215424A00202C63 /* Assets.xcassets */; };
 		89659A872215424A00202C63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89659A852215424A00202C63 /* LaunchScreen.storyboard */; };
+		89EE502322155ED80044C94E /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EE502222155ED70044C94E /* Place.swift */; };
+		E59CED8BAAEBDC37D95D2A7C /* Pods_BubbleTeaLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E8871CF7F049CF407F4D647 /* Pods_BubbleTeaLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30E75E7B40691379532968D5 /* Pods-BubbleTeaLocation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BubbleTeaLocation.debug.xcconfig"; path = "Target Support Files/Pods-BubbleTeaLocation/Pods-BubbleTeaLocation.debug.xcconfig"; sourceTree = "<group>"; };
+		8409BDBAFA57CAE8B69CB7DC /* Pods-BubbleTeaLocation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BubbleTeaLocation.release.xcconfig"; path = "Target Support Files/Pods-BubbleTeaLocation/Pods-BubbleTeaLocation.release.xcconfig"; sourceTree = "<group>"; };
+		8939098A221E81400024EAB5 /* JsonResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonResponse.swift; sourceTree = "<group>"; };
+		8939098C221E815D0024EAB5 /* VenuesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenuesResponse.swift; sourceTree = "<group>"; };
+		8939098E221E81870024EAB5 /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		89390990221E89EB0024EAB5 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		89390992221E91410024EAB5 /* VenueDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDetailViewController.swift; sourceTree = "<group>"; };
 		89659A792215424700202C63 /* BubbleTeaLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubbleTeaLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89659A7C2215424700202C63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89659A7E2215424700202C63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +36,8 @@
 		89659A832215424A00202C63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89659A862215424A00202C63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89659A882215424A00202C63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89EE502222155ED70044C94E /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		9E8871CF7F049CF407F4D647 /* Pods_BubbleTeaLocation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BubbleTeaLocation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E59CED8BAAEBDC37D95D2A7C /* Pods_BubbleTeaLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7309813D5876372C5950BFE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30E75E7B40691379532968D5 /* Pods-BubbleTeaLocation.debug.xcconfig */,
+				8409BDBAFA57CAE8B69CB7DC /* Pods-BubbleTeaLocation.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		89390989221E81250024EAB5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8939098A221E81400024EAB5 /* JsonResponse.swift */,
+				8939098C221E815D0024EAB5 /* VenuesResponse.swift */,
+				8939098E221E81870024EAB5 /* Venue.swift */,
+				89390990221E89EB0024EAB5 /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		89659A702215424700202C63 = {
 			isa = PBXGroup;
 			children = (
 				89659A7B2215424700202C63 /* BubbleTeaLocation */,
 				89659A7A2215424700202C63 /* Products */,
+				7309813D5876372C5950BFE8 /* Pods */,
+				B1040DFD82BC4398C7D92559 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +93,25 @@
 		89659A7B2215424700202C63 /* BubbleTeaLocation */ = {
 			isa = PBXGroup;
 			children = (
+				89390989221E81250024EAB5 /* Models */,
 				89659A7C2215424700202C63 /* AppDelegate.swift */,
 				89659A7E2215424700202C63 /* ViewController.swift */,
 				89659A802215424700202C63 /* Main.storyboard */,
 				89659A832215424A00202C63 /* Assets.xcassets */,
 				89659A852215424A00202C63 /* LaunchScreen.storyboard */,
 				89659A882215424A00202C63 /* Info.plist */,
+				89EE502222155ED70044C94E /* Place.swift */,
+				89390992221E91410024EAB5 /* VenueDetailViewController.swift */,
 			);
 			path = BubbleTeaLocation;
+			sourceTree = "<group>";
+		};
+		B1040DFD82BC4398C7D92559 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E8871CF7F049CF407F4D647 /* Pods_BubbleTeaLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +121,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89659A8B2215424A00202C63 /* Build configuration list for PBXNativeTarget "BubbleTeaLocation" */;
 			buildPhases = (
+				7C3142225872A774A05D6C11 /* [CP] Check Pods Manifest.lock */,
 				89659A752215424700202C63 /* Sources */,
 				89659A762215424700202C63 /* Frameworks */,
 				89659A772215424700202C63 /* Resources */,
+				74E00D6476FD51115BB4B441 /* [CP] Copy Pods Resources */,
+				FD31F4D5B640460602F7F99A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +183,90 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		74E00D6476FD51115BB4B441 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BubbleTeaLocation/Pods-BubbleTeaLocation-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BubbleTeaLocation/Pods-BubbleTeaLocation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C3142225872A774A05D6C11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BubbleTeaLocation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD31F4D5B640460602F7F99A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BubbleTeaLocation/Pods-BubbleTeaLocation-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BubbleTeaLocation/Pods-BubbleTeaLocation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		89659A752215424700202C63 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89EE502322155ED80044C94E /* Place.swift in Sources */,
+				8939098F221E81870024EAB5 /* Venue.swift in Sources */,
+				8939098B221E81400024EAB5 /* JsonResponse.swift in Sources */,
+				8939098D221E815D0024EAB5 /* VenuesResponse.swift in Sources */,
 				89659A7F2215424700202C63 /* ViewController.swift in Sources */,
 				89659A7D2215424700202C63 /* AppDelegate.swift in Sources */,
+				89390991221E89EB0024EAB5 /* Location.swift in Sources */,
+				89390993221E91410024EAB5 /* VenueDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,10 +410,11 @@
 		};
 		89659A8C2215424A00202C63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30E75E7B40691379532968D5 /* Pods-BubbleTeaLocation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RT44NCJNJ3;
+				DEVELOPMENT_TEAM = 7BLZL9SX98;
 				INFOPLIST_FILE = BubbleTeaLocation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,10 +429,11 @@
 		};
 		89659A8D2215424A00202C63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8409BDBAFA57CAE8B69CB7DC /* Pods-BubbleTeaLocation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RT44NCJNJ3;
+				DEVELOPMENT_TEAM = 7BLZL9SX98;
 				INFOPLIST_FILE = BubbleTeaLocation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

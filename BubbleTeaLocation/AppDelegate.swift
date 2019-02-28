@@ -5,7 +5,7 @@
 //  Created by Patipol Wangjaitham on 14/2/2562 BE.
 //  Copyright © 2562 Patipol Wangjaitham. All rights reserved.
 //
-
+import GoogleMaps
 import UIKit
 
 @UIApplicationMain
@@ -15,7 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        GMSServices.provideAPIKey("AIzaSyBfioGBBegxJp_vClVBmwuic6cJ1GCEl8w")
         return true
     }
 
